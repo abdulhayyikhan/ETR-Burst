@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Power BI Dashboard</title>
+    <title>ETR Burst Dashboard</title>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2GE87KY7FJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2GE87KY7FJ');
+    </script>
     <style>
         body {
             margin: 0;
-            padding: 10px;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,6 +29,9 @@
     </style>
 </head>
 <body>
+    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=your-unique-report-id" frameborder="0" allowfullscreen="true"></iframe>
+</body>
+</html>
     <!-- Paste your Power BI iframe code here -->
     <iframe title="ETR Burst" width="900" height="620" src="https://app.powerbi.com/view?r=eyJrIjoiNjkxYzE4NTctOGIyYy00ZmJlLTg0ZDQtZjZlZTc3YWVhOGY0IiwidCI6IjczNWQ2NmMwLTRhZmYtNGY5MS05YjA2LTlmNjgzY2ZhMGM2YyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
 </body>

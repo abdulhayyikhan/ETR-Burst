@@ -15,24 +15,22 @@
     <style>
         body {
             margin: 0;
-            padding: 10px;
+            padding: 10px; /* Keep this if you want some spacing, or set to 0 for full edge-to-edge */
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+            min-height: 100vh; /* Ensures body takes full viewport height */
             background-color: #f0f0f0;
         }
         iframe {
             border: none;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 100%; /* Prevents iframe from overflowing on small screens */
+            height: auto; /* Allows height to adjust proportionally */
         }
     </style>
 </head>
 <body>
-    <iframe width="900" height="620" src="https://app.powerbi.com/view?r=your-unique-report-id" frameborder="0" allowfullscreen="true"></iframe>
-</body>
-</html>
-    <!-- Paste your Power BI iframe code here -->
-    <iframe title="ETR Burst" width="900" height="620" src="https://app.powerbi.com/view?r=eyJrIjoiNjkxYzE4NTctOGIyYy00ZmJlLTg0ZDQtZjZlZTc3YWVhOGY0IiwidCI6IjczNWQ2NmMwLTRhZmYtNGY5MS05YjA2LTlmNjgzY2ZhMGM2YyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe width="800" height="600" src="https://app.powerbi.com/view?r=your-unique-report-id" frameborder="0" allowfullscreen="true"></iframe>
 </body>
 </html>
